@@ -1,0 +1,19 @@
+<form #loginForm="ngForm" (ngSubmit)=logFun(loginForm)>
+    <div class="form-group row mb-5 mt-5">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="inputEmail3" ngModel>
+      </div>
+    </div>
+    <div class="form-group row mb-5">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="inputPassword3" ngModel>
+      </div>
+    </div>
+    <div class="form-group row mb-5">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-dark d-block mx-auto">Log In</button>
+      </div>
+    </div>
+  </form>
